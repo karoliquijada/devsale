@@ -1,5 +1,11 @@
-const Products = () => {
-    return <h1>This is products</h1>
-}
+import SearchBox from "../../components/SearchBox/search.component";
 
-export default Products
+const Products = () => {
+  return (
+    <>
+      <SearchBox />
+    </>
+  );
+};
+
+export default Products;
